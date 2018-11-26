@@ -1,0 +1,48 @@
+#fondo {
+    background: #008000;
+    font: 14px arial;
+    width: 360px;
+    height: 360px;
+}
+
+#titulo{
+    font: bold 24px arial;
+}
+
+#tabulacion{
+    text-indent: 30%
+}
+
+#negrita {
+    background: #5DC600;
+    font: bold 16px arial;
+}
+
+#texto {
+    float: right;
+    margin: 0 1.5%;
+    width: 55%;
+    background: #5DC600;
+    font: 14px arial;
+}
+
+#cursiva{
+    background: #5DC600;
+    font: italic 14px arial;
+    width: 140px;
+    height: 140px;
+    border: 5px solid #999999;
+}
+
+#division {
+    background: #5DC600;
+    font: |;
+}
+
+#foto {
+    float: left;
+    margin: 0 1.5%;
+    width: 15%;
+    width: 40px;
+    height: 40px;
+}
