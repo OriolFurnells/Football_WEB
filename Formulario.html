@@ -9,7 +9,7 @@
 </head>
 
 <body>
-   <div class="Grid">
+    <div class="Grid">
         <div class="banner">
             <div class="center">
                 <img class="logo" src="nysl_logo.png" alt="logo Northside Youth Soccer League">
@@ -17,22 +17,22 @@
             <div>
                 <div class="center">
                     <h1 class="nombre_empresa">Northside Youth Soccer League</h1>
-                <div>
-                <h4 class="nombre_seccion">Registration Form</h4>
+                    <div>
+                        <h4 class="nombre_seccion">Registration Form</h4>
+                    </div>
                 </div>
             </div>
+            <div> <img class="gif" src="chilena.gif" alt="chilena">
             </div>
-            <div>  <img class="gif" src="chilena.gif" alt="chilena">
-                </div>
 
             <audio src="football52.mp3" type="audio/mpeg" autoplay></audio>
         </div>
-   
+
         <!--  menu-->
         <div class="menu enlace">
-            <a href="_Index.html">Home</a>
-            <a href="_About%20NYSL.html">About Us</a>
-            <a  href="_Contact.html">Contact Us</a>
+            <a href="Index.html">Home</a>
+            <a href="About%20NYSL.html">About Us</a>
+            <a href="Contact.html">Contact Us</a>
             <a href="Game_Info.html">NYSL Game Information</a>
             <a href="Rules.html">NYSL Rules</a>
             <a class="active" href="Formulario.html">Registration Form</a>
@@ -41,173 +41,173 @@
         <!--        contenido-->
         <div class="contenido">
             <div class="v100">
-                <div class="v75">
-            <div>
-                <form action="show_data.html" method="get" class="formulario">
-                <div class="cent">
-                    <label class="resto"> Player's First Name:
-                        <input class="invisible cincuenta" type="text" name="PlayerName">
-                    </label>
-                    <label class="resto">Last Name:
-                        <input class="invisible fondo" type="text" name="LastName">
-                    </label>
-                </div>
-
-                <div class="cent">
-                    <label>Street Address: </label>
-                    <input class="invisible fondo" type="text" name="Address">
-                </div>
-                <div class="cent">
-                    <label class="resto">City:
-                        <input class="invisible cincuenta" type="text" name="City">
-                    </label>
-                    <label>Zip Code: </label>
-                    <input class="invisible fondo" type="text" name="Code">
-                </div>
-                <div class="cent">
-                    <div class="cincuenta cinco">
-                        <label>Birth Date (mm/dd/yyyy): </label>
-                        <input class="sex" type="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" name="Birth">
-                    </div>
-                    <div class="cincuenta cinco">
-                        <label>Gender:</label>
-                        <label><input type="radio" name="sex" value="Female"> Female</label>
-                        <label><input type="radio" name="sex" value="Male"> Male</label>
-                    </div>
-                </div>
-                <div class="grade">
-                    <label>Grade:</label>
-                    <label>
-                        <input type="radio" name="grade" value="Pre-School">Pre-School</label>
-                    <label>
-                        <input type="radio" name="grade" value="One">1<sup>st</sup></label>
-                    <label>
-                        <input type="radio" name="grade" value="Two">2<sup>nd</sup></label>
-                    <label>
-                        <input type="radio" name="grade" value="Three">3<sup>rd</sup></label>
-                    <label>
-                        <input type="radio" name="grade" value="Four">4<sup>th</sup></label>
-                    <label>
-                        <input type="radio" name="grade" value="Five">5<sup>th</sup></label>
-                </div>
-                <div class="cent">
-                    <label>Parent/Guardian:</label><input class="invisible fondo" type="text" name="Guardian">
-                </div>
-                <div class="cent">
-                    <label>Contact Phone:</label><input class="invisible" type="text" name="Phone">
-                    <label>Contact Email: </label><input class="invisible fondo" type="text" name="Mail">
-                </div>
-
-                <p class="negrita">Which elementary schools do you live near?</p>
-                <div class="twocolumnas">
-                    <div class="cinco">
-                        <label class="negrita">First Closest School:</label>
-                        <div class="escuelas v40">
-                            <label><input type="radio" name="First_School" value="AJ Katzenmaier">AJ Katzenmaier</label>
-                            <label><input type="radio" name="First_School" value="Greenbay">Greenbay</label>
-                            <label><input type="radio" name="First_School" value="Howard A Yeager">Howard A Yeager</label>
-                            <label><input type="radio" name="First_School" value="Marjorie P Hart">Marjorie P Hart</label>
-                            <label><input type="radio" name="First_School" value="North Elementary">North Elementary</label>
-                            <label><input type="radio" name="First_School" value="South Elementary">South Elementary</label>
-                        </div>
-                    </div>
-                    <div class="cinco">
-                        <label class="negrita">Second Closest School:</label>
-                        <div class="escuelas v40">
-                            <label><input type="radio" name="Second_School" value="AJ Katzenmaier">AJ Katzenmaier</label>
-                            <label><input type="radio" name="Second_School" value="Greenbay">Greenbay</label>
-                            <label><input type="radio" name="Second_School" value="Howard A Yeager">Howard A Yeager</label>
-                            <label><input type="radio" name="Second_School" value="Marjorie P Hart">Marjorie P Hart</label>
-                            <label><input type="radio" name="Second_School" value="North Elementary">North Elementary</label>
-                            <label><input type="radio" name="Second_School" value="South Elementary">South Elementary</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="nomargin">
-                    <p><label class="negrita">What position(s) do you normally play?</label>(check all thah apply)</p>
-                    <div class="onecolumna">
-                        <div class="posicion">
-                            <label><input type="checkbox" name="habitualy" value="Forward">Forward</label>
-                            <label><input type="checkbox" name="habitualy" value="Defense">Defense</label>
-                        </div>
-                        <div class="posicion">
-                            <label><input type="checkbox" name="habitualy" value="Midfield">Midfield</label>
-                            <label><input type="checkbox" name="habitualy" value="Goalkeeper">Goalkeeper</label>
-                        </div>
-
-                    </div>
-                </div>
-
                 <div>
-                    <p><label class="negrita">What position(s) do you want play?</label>(check all thah apply)</p>
-                    <div class="onecolumna">
-                        <div class="posicion">
-                            <label><input type="checkbox" name="want" value="Forward">Forward</label>
-                            <label><input type="checkbox" name="want" value="Defense">Defense</label>
-                        </div>
-                        <div class="posicion">
-                            <label><input type="checkbox" name="want" value="Midfield">Midfield</label>
-                            <label><input type="checkbox" name="want" value="Goalkeeper">Goalkeeper</label>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <p class=negrita><input type="checkbox" name="Uniform" value="OK">Already Have a Uniform</p>
-                    <div class="twocolumnas">
-                        <div class="cinco">
-                            <label class=negrita>Jersey Size
-                            </label>
-                            <div class="escuelas v40">
-                                <label>
-                                    <input type="radio" name="Jersey" value="Youth Small">Youth Small</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Medium">Medium</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Youth Medium">Youth Medium</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Large">Large</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Youth Large">Youth Large</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Extra-Large">Extra-Large</label>
-                                <label>
-                                    <input type="radio" name="Jersey" value="Small">Small</label>
+                    <div>
+                        <form action="show_data.html" method="get" class="formulario">
+                            <div class="cent">
+                                <label class="resto"> Player's First Name:
+                                    <input class="invisible cincuenta" type="text" name="PlayerName">
+                                </label>
+                                <label class="resto">Last Name:
+                                    <input class="invisible fondo" type="text" name="LastName">
+                                </label>
                             </div>
-                        </div>
-                        <div class="cinco">
-                            <label class=negrita>Shorts Size</label>
-                            <div class="escuelas v40">
-                                <label><input type="radio" name="Shorts" value="Youth Small">Youth Small</label>
-                                <label><input type="radio" name="Shorts" value="Medium">Medium</label>
-                                <label><input type="radio" name="Shorts" value="Youth Medium">Youth Medium</label>
-                                <label><input type="radio" name="Shorts" value="Large">Large</label>
-                                <label><input type="radio" name="Shorts" value="Youth Large">Youth Large</label>
-                                <label><input type="radio" name="Shorts" value="Extra-Large">Extra-Large</label>
-                                <label><input type="radio" name="Shorts" value="Small">Small</label>
+
+                            <div class="cent">
+                                <label>Street Address: </label>
+                                <input class="invisible fondo" type="text" name="Address">
                             </div>
-                        </div>
+                            <div class="cent">
+                                <label class="resto">City:
+                                    <input class="invisible cincuenta" type="text" name="City">
+                                </label>
+                                <label>Zip Code: </label>
+                                <input class="invisible fondo" type="text" name="Code">
+                            </div>
+                            <div class="cent">
+                                <div class="cincuenta cinco">
+                                    <label>Birth Date (mm/dd/yyyy): </label>
+                                    <input class="sex" type="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" name="Birth">
+                                </div>
+                                <div class="cincuenta cinco">
+                                    <label>Gender:</label>
+                                    <label><input type="radio" name="sex" value="Female"> Female</label>
+                                    <label><input type="radio" name="sex" value="Male"> Male</label>
+                                </div>
+                            </div>
+                            <div class="grade">
+                                <label>Grade:</label>
+                                <label>
+                                    <input type="radio" name="grade" value="Pre-School">Pre-School</label>
+                                <label>
+                                    <input type="radio" name="grade" value="One">1<sup>st</sup></label>
+                                <label>
+                                    <input type="radio" name="grade" value="Two">2<sup>nd</sup></label>
+                                <label>
+                                    <input type="radio" name="grade" value="Three">3<sup>rd</sup></label>
+                                <label>
+                                    <input type="radio" name="grade" value="Four">4<sup>th</sup></label>
+                                <label>
+                                    <input type="radio" name="grade" value="Five">5<sup>th</sup></label>
+                            </div>
+                            <div class="cent">
+                                <label>Parent/Guardian:</label><input class="invisible fondo" type="text" name="Guardian">
+                            </div>
+                            <div class="cent">
+                                <label>Contact Phone:</label><input class="invisible" type="text" name="Phone">
+                                <label>Contact Email: </label><input class="invisible fondo" type="text" name="Mail">
+                            </div>
+
+                            <p class="negrita">Which elementary schools do you live near?</p>
+                            <div class="twocolumnas">
+                                <div class="cinco">
+                                    <label class="negrita">First Closest School:</label>
+                                    <div class="escuelas v40">
+                                        <label><input type="radio" name="First_School" value="AJ Katzenmaier">AJ Katzenmaier</label>
+                                        <label><input type="radio" name="First_School" value="Greenbay">Greenbay</label>
+                                        <label><input type="radio" name="First_School" value="Howard A Yeager">Howard A Yeager</label>
+                                        <label><input type="radio" name="First_School" value="Marjorie P Hart">Marjorie P Hart</label>
+                                        <label><input type="radio" name="First_School" value="North Elementary">North Elementary</label>
+                                        <label><input type="radio" name="First_School" value="South Elementary">South Elementary</label>
+                                    </div>
+                                </div>
+                                <div class="cinco">
+                                    <label class="negrita">Second Closest School:</label>
+                                    <div class="escuelas v40">
+                                        <label><input type="radio" name="Second_School" value="AJ Katzenmaier">AJ Katzenmaier</label>
+                                        <label><input type="radio" name="Second_School" value="Greenbay">Greenbay</label>
+                                        <label><input type="radio" name="Second_School" value="Howard A Yeager">Howard A Yeager</label>
+                                        <label><input type="radio" name="Second_School" value="Marjorie P Hart">Marjorie P Hart</label>
+                                        <label><input type="radio" name="Second_School" value="North Elementary">North Elementary</label>
+                                        <label><input type="radio" name="Second_School" value="South Elementary">South Elementary</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nomargin">
+                                <p><label class="negrita">What position(s) do you normally play?</label>(check all thah apply)</p>
+                                <div class="onecolumna">
+                                    <div class="posicion">
+                                        <label><input type="checkbox" name="habitualy" value="Forward">Forward</label>
+                                        <label><input type="checkbox" name="habitualy" value="Defense">Defense</label>
+                                    </div>
+                                    <div class="posicion">
+                                        <label><input type="checkbox" name="habitualy" value="Midfield">Midfield</label>
+                                        <label><input type="checkbox" name="habitualy" value="Goalkeeper">Goalkeeper</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div>
+                                <p><label class="negrita">What position(s) do you want play?</label>(check all thah apply)</p>
+                                <div class="onecolumna">
+                                    <div class="posicion">
+                                        <label><input type="checkbox" name="want" value="Forward">Forward</label>
+                                        <label><input type="checkbox" name="want" value="Defense">Defense</label>
+                                    </div>
+                                    <div class="posicion">
+                                        <label><input type="checkbox" name="want" value="Midfield">Midfield</label>
+                                        <label><input type="checkbox" name="want" value="Goalkeeper">Goalkeeper</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class=negrita><input type="checkbox" name="Uniform" value="OK">Already Have a Uniform</p>
+                                <div class="twocolumnas">
+                                    <div class="cinco">
+                                        <label class=negrita>Jersey Size
+                                        </label>
+                                        <div class="escuelas v40">
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Youth Small">Youth Small</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Medium">Medium</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Youth Medium">Youth Medium</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Large">Large</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Youth Large">Youth Large</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Extra-Large">Extra-Large</label>
+                                            <label>
+                                                <input type="radio" name="Jersey" value="Small">Small</label>
+                                        </div>
+                                    </div>
+                                    <div class="cinco">
+                                        <label class=negrita>Shorts Size</label>
+                                        <div class="escuelas v40">
+                                            <label><input type="radio" name="Shorts" value="Youth Small">Youth Small</label>
+                                            <label><input type="radio" name="Shorts" value="Medium">Medium</label>
+                                            <label><input type="radio" name="Shorts" value="Youth Medium">Youth Medium</label>
+                                            <label><input type="radio" name="Shorts" value="Large">Large</label>
+                                            <label><input type="radio" name="Shorts" value="Youth Large">Youth Large</label>
+                                            <label><input type="radio" name="Shorts" value="Extra-Large">Extra-Large</label>
+                                            <label><input type="radio" name="Shorts" value="Small">Small</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nomargin">
+                                <p class="negrita sub">Permission to Play</p>
+                                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+                                <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+
+                                <div class="cent">
+                                    <label>Parent/Guardian Signature: </label><input class="invisible firma" type="text" name="Signature">
+
+                                    <label>Date:</label> <input type="date" maxlength="800" name="Date">
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="send">
+                                <input class="boton" type="submit" value="Send" />
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="nomargin">
-                    <p class="negrita sub">Permission to Play</p>
-                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
-                    <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
-
-
-                    <div class="cent">
-                        <label>Parent/Guardian Signature: </label><input class="invisible firma" type="text" name="Signature">
-
-                        <label>Date:</label> <input type="date" maxlength="800" name="Date">
-                    </div>
-
-                </div>
-
-
-
-                <div class="send">
-                    <input class="boton" type="submit" value="Send" />
-                </div>
-            </form>
-        </div>
-    </div>
 </body>
